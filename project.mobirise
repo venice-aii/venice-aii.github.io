@@ -1,0 +1,210 @@
+{
+  "settings": {
+    "name": "venice-aii",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "startm5",
+      "title": "StartM5",
+      "titlePreset": "StartM5",
+      "styling": {
+        "primaryColor": "#9fe870",
+        "secondaryColor": "#ffd7ef",
+        "successColor": "#3a341c",
+        "infoColor": "#320707",
+        "warningColor": "#a0e2e1",
+        "dangerColor": "#ffea64",
+        "mainFont": "Inter Tight",
+        "display1Font": "Inter Tight",
+        "display1Size": 5,
+        "display2Font": "Inter Tight",
+        "display2Size": 4,
+        "display5Font": "Inter Tight",
+        "display5Size": 2,
+        "display7Font": "Inter Tight",
+        "display7Size": 1.4,
+        "display4Font": "Inter Tight",
+        "display4Size": 1.4,
+        "isRoundedImages": true,
+        "isRoundedButtons": true,
+        "isLargeButtons": true,
+        "isGhostButtonBorder": true,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "6.1.12",
+    "siteFonts": [],
+    "favicon": "@PROJECT_PATH@/assets/images/venice-favicon.png",
+    "robotsSwitcher": true,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\nSitemap: https://venice-aii.github.io/sitemap.xml/",
+    "sitemapSwitcher": true,
+    "siteUrl": "https://venice-aii.github.io/",
+    "sitemapSwitcherAuto": "on",
+    "mbrsiteDomain": "6sllehjq1n",
+    "imageResize": false,
+    "usedWebp": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "uniqCompNum": 5,
+    "versionPublish": "6.1.12"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Venice.AI - Official Website | Home",
+        "meta_descr": "Venice.ai is a Privacy-First AI Platform That Provides Chat, image Generation, Coding, Video Creation, and AI Agents Without Storing Your Conversations.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            }
+          },
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <a href=\"https://venice.ai/\"><img src=\"@PROJECT_PATH@/assets/images/venice-p.1.png\" alt=\"venice.ai\"></a>\n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "vmTN2SrLX6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image04-0"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            }
+          },
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <img src=\"@PROJECT_PATH@/assets/images/venice-p.2.png\" alt=\"venice.ai\">\n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "vmTN34X1pz",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image04-1"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            }
+          },
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <a href=\"https://venice.ai/\"><img src=\"@PROJECT_PATH@/assets/images/venice-p.3.png\" alt=\"venice.ai\"></a>\n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "vmTN3fiVYM",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image04-2"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            }
+          },
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <a href=\"https://venice.ai/\"><img src=\"@PROJECT_PATH@/assets/images/venice-p.4.png\" alt=\"venice.ai\"></a>\n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "vmTN3s0WHl",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image04-3"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".card-wrapper": {
+              "background": "@wrapBgColor",
+              "@media (max-width: 767px)": {
+                "padding": "2rem 1.5rem"
+              },
+              "@media (min-width: 768px) and (max-width: 991px)": {
+                "padding": "2.25rem"
+              },
+              "@media (min-width: 992px)": {
+                "padding": "4rem"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            ".card-title, .card-box": {
+              "text-align": "left",
+              "color": "#000000"
+            }
+          },
+          "_name": "article07",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article07\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline title=\"Content Width\" name=\"contentWidth\" min=\"8\" max=\"12\" step=\"1\" value=\"10\">\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n    <input type=\"color\" title=\"Wrap Bg\" name=\"wrapBgColor\" value=\"#ffffff\">\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n      <input type=\"color\" title=\"Color\" value=\"#edefeb\" selected>\n      <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n    </fieldset>\n    <header condition=\"bg.type === 'video'\">Fallback Image</header>\n    <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n  </mbr-parameters>\n\n  <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center\">\n      <div class=\"card col-md-12 col-lg-{{contentWidth}}\">\n        <div class=\"card-wrapper\">\n          <h3 class=\"card-title mbr-fonts-style mbr-white mt-3 mb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n            <b><a href=\"https://venice.ai/\" class=\"text-primary\">Venice.AI</a> - Official Website | Home</b></h3>\n          <div class=\"row card-box align-left\">\n            <div class=\"item features-without-image col-12\">\n              <div class=\"item-wrapper\">\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b><a href=\"https://venice.ai/\" class=\"text-primary\">Venice.ai</a>: The Privacy-First AI Platform Challenging the Status Quo</b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Artificial intelligence has become a central part of modern work, creativity, and communication. Yet as AI adoption grows, concerns about privacy, data ownership, and content restrictions have become increasingly prominent. Venice.ai has emerged as a notable alternative in the AI landscape by positioning itself as a privacy-focused and relatively unrestricted AI platform designed for users who want greater control over their data and interactions.<br><br><b>What Is Venice.ai?<br></b><a href=\"https://venice.ai/\" class=\"text-primary\">Venice.ai </a>is a generative AI platform that provides access to multiple AI capabilities, including text generation, image creation, video generation, audio tools, coding assistance, and AI-powered search. Unlike many mainstream AI services, Venice emphasizes user privacy and claims that conversations are not stored on its servers by default. The platform combines access to open-source models and selected frontier AI models through a unified interface.<br><br>Founded by entrepreneur Erik Voorhees, Venice was built around the idea that AI should be private, user-controlled, and open to exploration without excessive restrictions. The company's philosophy centers on digital sovereignty, arguing that users should retain ownership of their prompts, conversations, and generated content.<br><br><b>Core Features ://</b><br><a href=\"https://venice.ai/\" class=\"text-primary\">Venice.ai</a> offers a broad range of AI-powered capabilities:<br><b>1.</b> AI chat and text generation&nbsp; &nbsp;<b>2.</b> Image generation and editing&nbsp; <b>3.</b>&nbsp;Video creation<br><b>4.</b> Audio and music generation&nbsp; <b>5.</b> Coding assistance&nbsp; <b>6.</b> Web search integration<br><b>7.</b> OpenAI-compatible developer APIs&nbsp; <b>8.</b> Custom AI characters and workflows<br>The platform supports numerous AI models from providers and open-source communities, allowing users to choose models optimized for reasoning, coding, creative writing, image generation, or other specialized tasks.<br><br><b>Privacy as a Core Differentiator ://</b><br>Privacy is Venice.ai's most distinctive selling point. According to the company, conversation history is stored locally on the user's device rather than on Venice-operated servers. Requests are routed through a proxy architecture designed to minimize data retention and reduce exposure of user information.<br><b>:&gt;</b> Venice describes four privacy modes:<br><b>1. Anonymous</b> – User identity is obscured, though model providers may still retain prompts.<br><b>2. Private</b> – Uses zero-data-retention infrastructure and contractual privacy protections.<br><b>3. TEE (Trusted Execution Environment)</b> – Employs hardware-isolated environments for additional security.<br><b>4. E2EE (End-to-End Encryption)</b> – Prompts are encrypted on the user's device and only decrypted within verified secure environments.<br><b>//</b>&nbsp; These privacy options are designed to give users flexibility between convenience, model access, and security requirements.<br><br><b>The \"Uncensored AI\" Approach ://</b><br>Another aspect that differentiates <a href=\"https://venice.ai/\" class=\"text-primary\">Venice.ai</a> is its marketing around \"uncensored\" or less restrictive AI interactions. The company argues that excessive content filtering can limit creativity, curiosity, and open inquiry. As a result, Venice generally offers more permissive interactions than many mainstream AI assistants while still operating within legal and platform-specific boundaries.<br>This approach has attracted users who want greater freedom for experimentation, research, creative writing, and technical exploration. However, it also places greater responsibility on users to critically evaluate AI-generated content and use the technology responsibly.<br><br><b>Developer and Business Applications ://</b><br>Beyond consumer use, <a href=\"https://venice.ai/\" class=\"text-primary\">Venice.ai </a>has expanded its focus toward developers and businesses. The platform provides an OpenAI-compatible API that supports text, images, video, music, embeddings, and web-based tools through a single interface. This compatibility allows developers to integrate Venice services into existing AI workflows with minimal code changes.<br>The company has also pursued partnerships and integrations that extend its technology into agentic AI systems and other emerging applications.<br><br><b>Pricing Structure ://</b><br><a href=\"https://venice.ai/\" class=\"text-primary\">Venice.ai</a> offers a free tier with limited daily usage and paid subscription plans for power users. Premium plans provide access to advanced models, higher generation limits, expanded context windows, encrypted backup features, API access, and additional credits for video, music, and premium AI services.<br><br>This tiered approach allows casual users to experiment with the platform while giving professionals access to more advanced capabilities.<br><br><b>Strengths and Challenges<br>Strengths :/</b><br><b># </b>Strong emphasis on privacy and user control<br><b># </b>Broad multimodal capabilities across text, images, audio, and video<br><b># </b>Flexible model selection<br><b># </b>OpenAI-compatible API<br><b># </b>More permissive AI interactions than many competitors<br><b>Challenges<br>@</b> Some advanced privacy features are limited to paid plans<br><b>@ </b>Certain privacy claims rely on architectural trust assumptions and infrastructure providers<br><b>@ </b>Smaller ecosystem compared with major AI companies<br><b>@ </b>User feedback indicates occasional concerns about memory, prompt management, and feature consistency as the platform evolves.<br><br><b>Conclusion ://</b><br><a href=\"https://venice.ai/\" class=\"text-primary\">Venice.ai</a> represents a growing movement toward privacy-focused artificial intelligence. By emphasizing local data storage, optional encryption technologies, model flexibility, and fewer content restrictions, the platform has carved out a distinct position in an increasingly competitive AI market. While it faces the same challenges as many rapidly evolving AI services, its focus on user sovereignty and privacy continues to attract creators, developers, and organizations seeking alternatives to traditional AI platforms.<br><br>As concerns about data ownership and AI governance continue to grow, platforms like Venice.ai demonstrate that privacy and AI innovation do not have to be mutually exclusive.</p>\n              </div>\n            </div>\n            \n            \n            \n          </div>\n          <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Start Now</a>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>",
+          "_cid": "vmTN4q115M",
+          "_anchor": "article07-4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
